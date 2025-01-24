@@ -1,0 +1,30 @@
+SERVER
+1. initialise a node project - npm init -y
+2. npm i express nodemon cors - routing dev server_security
+3. es6 project - "type":"module" in package.json
+4. npm i socket.io - to install websockets package
+5. index.js basic setup
+6. install dotenv to secure our api keys, uri's, secret keys
+
+CLIENT
+1. npm create vite@latest
+2. npm install
+3. install material ui - npm install @mui/material @emotion/react @emotion/style
+4. npm i socket.io-client - this is the client side api from socket.io
+
+dotenv- its a security measure
+purpose- it secures your (developer's) secret keys, port values, database uri's and other sensitive development keys
+
+
+top
+--------------------------------
+<==chats==>
+--------------------------------socket.io
+--------------------------------https layer
+bottom 
+
+
+app.jsx ----------> main.js
+
+manages the
+components
