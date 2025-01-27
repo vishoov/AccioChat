@@ -32,9 +32,17 @@ io.on('connection', (socket)=>{
     socket.on("message", (data)=>{
         console.log(data);
         //broadcasting the message to all the clients
-        socket.broadcast.emit("forward-message", {message:data});
+        socket.to(data.room).emit("forward-message", {message:data.message});
     })
 
+    socket.on("join-room", (RoomName)=>{
+        socket.join(RoomName.room);
+        console.log(`joined room ${RoomName.room}`);
+    });
+
+    socket.on("disconnect", ()=>{
+        console.log(`a user has been disconnected ${socket.id}`);
+    })
    
 
 })

@@ -28,3 +28,26 @@ app.jsx ----------> main.js
 
 manages the
 components
+
+
+Features of Chat Application 
+
+-> Fullstack (FE- React, Material UI, socket.io-client, BE- nodejs, expressjs, bcrypt, jwt, sockets)
+-> Server Security for HTTP Handshakes
+-> Vite for frontend-> React Vs. Vite 
+-> Socket.io for WebRTC
+-> ES6 + React 
+-> Securing the server from hackers
+-> reducing latency of communication in web
+-> creating and joining groups 
+
+
+MAKE A CHAT ROUTE
+
+
+ROUTE PARAMETER = RECIEVER'S SOCKET.ID 
+
+use room names as rout parameters
+
+front end -> pages as room names
+
